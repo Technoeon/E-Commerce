@@ -7,45 +7,227 @@ and open the template in the editor.
     Created on : Jan 4, 2016, 7:05:39 PM
     Author     : Foyez
 */
+/*		Default Layout: 992px. 
+                Gutters: 24px.
+                Outer margins: 48px.
+                Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+body {
+
+}
+#top .contact-row .phone {
+    margin: 0 10px 0 0;
+}
+
+
+
 /*		Tablet Layout: 768px.
-		Gutters: 24px.
-		Outer margins: 28px.
-		Inherits styles from: Default Layout.
+                Gutters: 24px.
+                Outer margins: 28px.
+                Inherits styles from: Default Layout.
 -----------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
+    #top .logo {
+
+        margin: 0px;
+        text-align: center;
+    }
+
 }
 
 
 
 /*		Mobile Layout: 320px.
-		Gutters: 24px.
-		Outer margins: 34px.
-		Inherits styles from: Default Layout.
+                Gutters: 24px.
+                Outer margins: 34px.
+                Inherits styles from: Default Layout.
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
-	
-	
+    #top .container {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #top .logo {
+        padding: 10px 20px;
+        margin: 0px;
+        line-height: 100%;
+        font-size: 100%;
+    }
+    #top .contact-row .phone,
+    #top .contact-row .contact{
+        text-align: center;
+        display: block;
+        margin-bottom: 5px;
+
+    }
+    #top .search_form input {
+        border-radius: 5px 0 0 5px;
+        padding: 13px;
+        margin: 0px;
+        width: 100%;
+        font-size: 15px;
+        height: 100%;
+        border: 0;
+        outline: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-sizing: border-box;
+        float: left;
+        background: #fff;
+    }
+    #top .search_form .search-cat {
+        width: 100%;
+        position: relative;
+        float: right;
+        height: 47px;
+        top: 0;
+        border-left: 1px solid #e0e0e0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-sizing: border-box;
+    }
+    .search_form .button-search, .search_form .button-search2 {
+        font-family: FontAwesome;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        bottom: 2px;
+        z-index: 2;
+        cursor: pointer;
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 400;
+        background-color: #59b210;
+        color: #fff;
+        background-color: #59b210;
+        padding: 15px 15px 13px 15px;
+        margin: -3px -3px -3px 0;
+        border-radius: 0 5px 5px 0;
+        -webkit-transition: background .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out;
+        -ms-transition: background .3s ease-in-out;
+        -o-transition: background .3s ease-in-out;
+        transition: background .3s ease-in-out;
+    }
+    #top #header-right {
+        text-align: center;
+        padding: 20px 0 0 0px;
+    }
+
+
+
 }
 
 
 
 /*		Wide Mobile Layout: 480px.
-		Gutters: 24px.
-		Outer margins: 22px.
-		Inherits styles from: Default Layout, Mobile Layout.
+                Gutters: 24px.
+                Outer margins: 22px.
+                Inherits styles from: Default Layout, Mobile Layout.
 ------------------------------------------------------------
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+    #top .container {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #top .logo {
+        padding: 17px 40px;
+        margin: 0px;
+        line-height: 100%;
+        font-size: 100%;
+    }
+    #top .contact-row .phone,
+    #top .contact-row .contact{
+        text-align: center;
+        display: block;
+        margin-bottom: 5px;
+
+    }
+    #top .search_form input {
+        border-radius: 5px 0 0 5px;
+        padding: 13px;
+        margin: 0px;
+        width: 100%;
+        font-size: 15px;
+        height: 100%;
+        border: 0;
+        outline: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-sizing: border-box;
+        float: left;
+        background: #fff;
+    }
+    #top .search_form .search-cat {
+        width: 100%;
+        position: relative;
+        float: right;
+        height: 47px;
+        top: 0;
+        border-left: 1px solid #e0e0e0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-sizing: border-box;
+    }
+    .search_form .button-search, .search_form .button-search2 {
+        font-family: FontAwesome;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        bottom: 2px;
+        z-index: 2;
+        cursor: pointer;
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 400;
+        background-color: #59b210;
+        color: #fff;
+        background-color: #59b210;
+        padding: 15px 15px 13px 15px;
+        margin: -3px -3px -3px 0;
+        border-radius: 0 5px 5px 0;
+        -webkit-transition: background .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out;
+        -ms-transition: background .3s ease-in-out;
+        -o-transition: background .3s ease-in-out;
+        transition: background .3s ease-in-out;
+    }
+    #top #header-right {
+        text-align: center;
+        padding: 20px 0 0 0px;
+    }
+
+
+}
+
+
+/*	Retina media query.
+        Overrides styles for devices with a 
+        device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    #top .contact-row .phone,
+    #top .contact-row .contact{
+        text-align: center;
+        display: block;
+        margin-bottom: 5px;
+
+    }
 
 
 }

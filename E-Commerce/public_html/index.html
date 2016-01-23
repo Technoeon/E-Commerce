@@ -10,35 +10,1652 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
-        
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <!--- slider link    --->
+        <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+
+        <link rel="stylesheet" href="themes/nivo-slider.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
+        <!----sliderlink end---->
+
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-<!---------------------------------------Code Start---------------------------------------------------------------->
-<!---------------------------------------Foyez Header---------------------------------------------------------------->
+        <!---------------------------------------Code Start---------------------------------------------------------------->
+        <!---------------------------------------Foyez Header---------------------------------------------------------------->
+        <header>
+            <div class="background-header"></div>
+            <div class="slider-header">
+                <div id="top-bar" class="full-width">
+                    <div class="background-top-bar"></div>
+                    <div class="background">
+                        <div class="shadow"></div>
+                        <div class="pattern">
+                            <div class="container">
+                                <div class="row">
+                                    <!--    top-bar-left ---->
+                                    <div class="col-xs-12 col-sm-6">
+                                        <ul class="top-links">
+                                            <li><a href="index.html" class="link">Home</a></li>
+                                            <li><a href="#" class="link">Contact us</a></li>
+                                            <li><a href="#" class="link">My Account</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--    top-bar-right ---->
+                                    <div class="col-xs-12 col-sm-6">
+                                        <ul class="top-links">
+                                            <li><a href="#" class="link">English<span class="caret"></span></a></li>
+                                            <li><a href="#" class="link">BD Taka (BDT)<span class="caret"></span></a></li>
+                                            <li><a href="#" class="link">Register</a></li>
+                                            <li><a href="#" class="link">Login</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="top" class="full-width">
+                    <div class="background-top"></div>
+                    <div class="background">
+                        <div class="shadow"></div>
+                        <div class="pattern">
+                            <div class="container">
+                                <div class="row">
+                                    <!--    Header-left ---->
+                                    <div class="col-xs-12 col-md-3">
+                                        <div class="logo">
+                                            <a href="index.html">
+                                                <img src="img/te.jpg" width="233px" height="54px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--    header-mid ---->
+                                    <div class="col-xs-12 col-md-6 no-margin" id="header-center"> 
+                                        <div class="contact-row">
+                                            <div class="phone inline"><i class="fa fa-phone"></i>(+88) 016 766 70809</div>
+                                            <div class="contact inline"><i class="fa fa-envelope"></i>contact@<span class="le-color">somoyerdeal.com</span></div>
+                                        </div>
+                                        <div class="search_form">
+                                            <div class="button-search"></div>
+                                            <input type="text" class="input-block-level search-query ui-autocomplete-input" name="search" placeholder="Search for products" id="search_query" value="" autocomplete="off">
+                                            <div class="search-cat">
+                                                <select name="category_id" class="form-control">
+                                                    <option value="0">All categories</option>
+                                                    <option value="20">Desktops</option>
+                                                    <option value="26">&nbsp;&nbsp;PC</option>
+                                                    <option value="27">&nbsp;&nbsp;Mac</option>
+                                                    <option value="18">Laptops &amp; Notebooks</option>
+                                                    <option value="46">&nbsp;&nbsp;Macs</option>
+                                                    <option value="45">&nbsp;&nbsp;Windows</option>
+                                                    <option value="25">Components</option>
+                                                    <option value="29">&nbsp;&nbsp;Mice and Trackballs</option>
+                                                    <option value="28">&nbsp;&nbsp;Monitors</option>
+                                                    <option value="35">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 1</option>
+                                                    <option value="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 2</option>
+                                                    <option value="30">&nbsp;&nbsp;Printers</option>
+                                                    <option value="31">&nbsp;&nbsp;Scanners</option>
+                                                    <option value="32">&nbsp;&nbsp;Web Cameras</option>
+                                                    <option value="57">Tablets</option>
+                                                    <option value="17">Software</option>
+                                                    <option value="24">Phones &amp; PDAs</option>
+                                                    <option value="33">Cameras</option>
+                                                    <option value="34">MP3 Players</option>
+                                                    <option value="43">&nbsp;&nbsp;test 11</option>
+                                                    <option value="44">&nbsp;&nbsp;test 12</option>
+                                                    <option value="47">&nbsp;&nbsp;test 15</option>
+                                                    <option value="48">&nbsp;&nbsp;test 16</option>
+                                                    <option value="49">&nbsp;&nbsp;test 17</option>
+                                                    <option value="50">&nbsp;&nbsp;test 18</option>
+                                                    <option value="51">&nbsp;&nbsp;test 19</option>
+                                                    <option value="52">&nbsp;&nbsp;test 20</option>
+                                                    <option value="58">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 25</option>
+                                                    <option value="53">&nbsp;&nbsp;test 21</option>
+                                                    <option value="54">&nbsp;&nbsp;test 22</option>
+                                                    <option value="55">&nbsp;&nbsp;test 23</option>
+                                                    <option value="56">&nbsp;&nbsp;test 24</option>
+                                                    <option value="38">&nbsp;&nbsp;test 4</option>
+                                                    <option value="37">&nbsp;&nbsp;test 5</option>
+                                                    <option value="39">&nbsp;&nbsp;test 6</option>
+                                                    <option value="40">&nbsp;&nbsp;test 7</option>
+                                                    <option value="41">&nbsp;&nbsp;test 8</option>
+                                                    <option value="42">&nbsp;&nbsp;test 9</option>
+                                                </select>
+                                            </div>
+                                            <div id="autocomplete-results" class="autocomplete-results">
+                                                <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                    <!--    header-right ---->
+                                    <div class="col-xs-12 col-md-3 no-margin" id="header-right">
+                                        <div class="top-cart-row-container">
+                                            <div class="wishlist-compare-holder">
+                                                <div class="wishlist ">
+                                                    <a href="#" id="wishlist-total"><i class="fa fa-heart"></i> Wish List (0)</a>
+                                                </div>
+                                                <div class="compare">
+                                                    <a href="#" id="compare-total"><i class="fa fa-exchange"></i> Compare <span class="value">(0)</span></a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Cart block -->
+                                            <div id="cart_block" class="dropdown">
+                                                <div class="cart-heading dropdown-toogle" data-toggle="dropdown">
+                                                    <div class="basket-item-count">
+                                                        <span id="cart_count_ajax">
+                                                            <span class="count" id="cart_count">0</span>
+                                                        </span>
+                                                        <img src="img/icon-cart.png" alt="">
+                                                    </div>
+                                                    <div class="total-price-basket"> 
+                                                        <span class="lbl">Your Cart:</span>
+                                                        <span class="total-price" id="total_price_ajax">
+                                                            <span class="value" id="total_price">TK.0.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="dropdown-menu" id="cart_content">
+                                                    <div id="cart_content_ajax">
+                                                        <div class="empty">Your shopping cart is empty!</div>
+                                                    </div>                                                          
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--                Menu and slider       --->
+        <div class="menu-n-slider">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-3">
+                        <div class="container">
+                            <div class="hero">
+                                <div id="vertical" class="hovermenu ttmenu dark-style menu-red-gradient">
+                                    <div class="navbar navbar-default" role="navigation">
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                            <a class="navbar-brand" href="#"><i class="fa fa-home"></i> All Department</a>
+                                        </div><!-- end navbar-header -->
+
+                                        <div class="navbar-collapse collapse">
+                                            <ul class="nav navbar-nav">
+                                                <li class="dropdown ttmenu-full"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tabbed <b class="dropme"></b></a>
+                                                    <ul id="first-menu" class="dropdown-menu vertical-menu">
+                                                        <li>
+                                                            <div class="ttmenu-content">
+                                                                <div class="tabbable row">
+                                                                    <div class="col-md-3">
+                                                                        <ul class="nav nav-pills nav-stacked">
+                                                                            <li class="active"><a href="#tabs5-pane1" data-toggle="tab">Rich Features</a></li>
+                                                                            <li><a href="#tabs5-pane2" data-toggle="tab">Thumbnail</a></li>
+                                                                            <li><a href="#tabs5-pane3" data-toggle="tab">Carousel</a></li>
+                                                                            <li><a href="#tabs5-pane4" data-toggle="tab">Embed Video</a></li>
+                                                                        </ul>
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-9">
+                                                                        <div class="tab-content">
+                                                                            <div id="tabs5-pane1" class="tab-pane active">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>FONT ICON SUPPORT</h4></li>
+                                                                                                <li><a href="#">Web Design <span class="fa fa-laptop"></span></a></li>
+                                                                                                <li><a href="#">Web Development <span class="fa fa-gears"></span></a></li>
+                                                                                                <li><a href="#">Graphic Design <span class="fa fa-leaf"></span></a></li>
+                                                                                                <li><a href="#">IOS & ANDROID <span class="fa fa-android"></span></a></li>
+                                                                                                <li><a href="#">Logo Design <span class="fa fa-pencil"></span></a></li>
+                                                                                                <li><a href="#">Mockup Design <span class="fa fa-maxcdn"></span></a></li>
+                                                                                                <li><a href="#">e-Commerce <span class="fa fa-shopping-cart"></span></a></li>
+                                                                                                <li><a href="#">Digital Marketing <span class="fa fa-desktop"></span></a></li>
+                                                                                                <li><a href="#">SEO Services <span class="fa fa-area-chart"></span></a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>WHY CHOOSE TT MENU</h4></li>
+                                                                                                <li><a href="#">Responsive Layout</a></li>
+                                                                                                <li><a href="#">Retina Display Ready</a></li>
+                                                                                                <li><a href="#">Tons of Icons</a></li>
+                                                                                                <li><a href="#">Gradient Colors</a></li>
+                                                                                                <li><a href="#">Beginner Friendly</a></li>
+                                                                                                <li><a href="#">Detailed Documentation</a></li>
+                                                                                                <li><a href="#">100% Bootstrap Base</a></li>
+                                                                                                <li><a href="#">HTML5 CSS3</a></li>
+                                                                                                <li><a href="#">And Much More...</a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <img src="images/darkmenubg.png" alt="" class="img-responsive">
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->                  
+                                                                            </div>
+                                                                            <div id="tabs5-pane2" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_01.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_02.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_03.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_04.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_05.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_06.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->      
+                                                                            </div>
+                                                                            <div id="tabs5-pane3" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <h4>ABOUT OUR COMPANY</h4>
+                                                                                            <p>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham de  Bonorum " are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <p>Finibus Bonorum et Malorum" are also form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <button class="btn btn-primary small" href="#">Read more</button>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                                                            <div class="carousel-inner">
+                                                                                                <div class="item active">
+                                                                                                    <a href="single-project.html"><img src="images/menu_01.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->     
+                                                                                                <div class="item">
+                                                                                                    <a href="single-project.html"><img src="images/menu_02.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->
+                                                                                            </div><!-- End Carousel Inner -->
+                                                                                        </div><!-- /.carousel -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                            <div id="tabs5-pane4" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" frameborder="0" allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe src="https://player.vimeo.com/video/48401493?color=90cc62&amp;title=0&amp;byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                        </div><!-- /.tab-content -->
+                                                                    </div><!-- end col -->
+                                                                </div><!-- /.tabbable -->
+                                                            </div><!-- end ttmenu-content -->
+                                                        </li>
+                                                    </ul>
+                                                </li><!-- end mega menu -->
+                                                <li class="dropdown ttmenu-full strap"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tabbed <b class="dropme"></b></a>
+                                                    <ul id="first-menu" class="dropdown-menu vertical-menu">
+                                                        <li>
+                                                            <div class="ttmenu-content">
+                                                                <div class="tabbable row">
+                                                                    <div class="col-md-3">
+                                                                        <ul class="nav nav-pills nav-stacked">
+                                                                            <li class="active"><a href="#tabs6-pane1" data-toggle="tab">Rich Features</a></li>
+                                                                            <li><a href="#tabs6-pane2" data-toggle="tab">Thumbnail</a></li>
+                                                                            <li><a href="#tabs6-pane3" data-toggle="tab">Carousel</a></li>
+                                                                            <li><a href="#tabs6-pane4" data-toggle="tab">Embed Video</a></li>
+                                                                        </ul>
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-9">
+                                                                        <div class="tab-content">
+                                                                            <div id="tabs6-pane1" class="tab-pane active">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>FONT ICON SUPPORT</h4></li>
+                                                                                                <li><a href="#">Web Design <span class="fa fa-laptop"></span></a></li>
+                                                                                                <li><a href="#">Web Development <span class="fa fa-gears"></span></a></li>
+                                                                                                <li><a href="#">Graphic Design <span class="fa fa-leaf"></span></a></li>
+                                                                                                <li><a href="#">IOS & ANDROID <span class="fa fa-android"></span></a></li>
+                                                                                                <li><a href="#">Logo Design <span class="fa fa-pencil"></span></a></li>
+                                                                                                <li><a href="#">Mockup Design <span class="fa fa-maxcdn"></span></a></li>
+                                                                                                <li><a href="#">e-Commerce <span class="fa fa-shopping-cart"></span></a></li>
+                                                                                                <li><a href="#">Digital Marketing <span class="fa fa-desktop"></span></a></li>
+                                                                                                <li><a href="#">SEO Services <span class="fa fa-area-chart"></span></a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>WHY CHOOSE TT MENU</h4></li>
+                                                                                                <li><a href="#">Responsive Layout</a></li>
+                                                                                                <li><a href="#">Retina Display Ready</a></li>
+                                                                                                <li><a href="#">Tons of Icons</a></li>
+                                                                                                <li><a href="#">Gradient Colors</a></li>
+                                                                                                <li><a href="#">Beginner Friendly</a></li>
+                                                                                                <li><a href="#">Detailed Documentation</a></li>
+                                                                                                <li><a href="#">100% Bootstrap Base</a></li>
+                                                                                                <li><a href="#">HTML5 CSS3</a></li>
+                                                                                                <li><a href="#">And Much More...</a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <img src="images/darkmenubg.png" alt="" class="img-responsive">
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->                  
+                                                                            </div>
+                                                                            <div id="tabs6-pane2" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_01.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_02.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_03.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_04.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_05.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_06.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->      
+                                                                            </div>
+                                                                            <div id="tabs6-pane3" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <h4>ABOUT OUR COMPANY</h4>
+                                                                                            <p>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham de  Bonorum " are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <p>Finibus Bonorum et Malorum" are also form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <button class="btn btn-primary small" href="#">Read more</button>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                                                            <div class="carousel-inner">
+                                                                                                <div class="item active">
+                                                                                                    <a href="single-project.html"><img src="images/menu_01.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->     
+                                                                                                <div class="item">
+                                                                                                    <a href="single-project.html"><img src="images/menu_02.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->
+                                                                                            </div><!-- End Carousel Inner -->
+                                                                                        </div><!-- /.carousel -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                            <div id="tabs6-pane4" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" frameborder="0" allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe src="https://player.vimeo.com/video/48401493?color=90cc62&amp;title=0&amp;byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                        </div><!-- /.tab-content -->
+                                                                    </div><!-- end col -->
+                                                                </div><!-- /.tabbable -->
+                                                            </div><!-- end ttmenu-content -->
+                                                        </li>
+                                                    </ul>
+                                                </li><!-- end mega menu -->
+                                                <li class="dropdown ttmenu-full"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tabbed <b class="dropme"></b></a>
+                                                    <ul id="first-menu" class="dropdown-menu vertical-menu">
+                                                        <li>
+                                                            <div class="ttmenu-content">
+                                                                <div class="tabbable row">
+                                                                    <div class="col-md-3">
+                                                                        <ul class="nav nav-pills nav-stacked">
+                                                                            <li class="active"><a href="#tabs7-pane1" data-toggle="tab">Rich Features</a></li>
+                                                                            <li><a href="#tabs7-pane2" data-toggle="tab">Thumbnail</a></li>
+                                                                            <li><a href="#tabs7-pane3" data-toggle="tab">Carousel</a></li>
+                                                                            <li><a href="#tabs7-pane4" data-toggle="tab">Embed Video</a></li>
+                                                                        </ul>
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-9">
+                                                                        <div class="tab-content">
+                                                                            <div id="tabs7-pane1" class="tab-pane active">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>FONT ICON SUPPORT</h4></li>
+                                                                                                <li><a href="#">Web Design <span class="fa fa-laptop"></span></a></li>
+                                                                                                <li><a href="#">Web Development <span class="fa fa-gears"></span></a></li>
+                                                                                                <li><a href="#">Graphic Design <span class="fa fa-leaf"></span></a></li>
+                                                                                                <li><a href="#">IOS & ANDROID <span class="fa fa-android"></span></a></li>
+                                                                                                <li><a href="#">Logo Design <span class="fa fa-pencil"></span></a></li>
+                                                                                                <li><a href="#">Mockup Design <span class="fa fa-maxcdn"></span></a></li>
+                                                                                                <li><a href="#">e-Commerce <span class="fa fa-shopping-cart"></span></a></li>
+                                                                                                <li><a href="#">Digital Marketing <span class="fa fa-desktop"></span></a></li>
+                                                                                                <li><a href="#">SEO Services <span class="fa fa-area-chart"></span></a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>WHY CHOOSE TT MENU</h4></li>
+                                                                                                <li><a href="#">Responsive Layout</a></li>
+                                                                                                <li><a href="#">Retina Display Ready</a></li>
+                                                                                                <li><a href="#">Tons of Icons</a></li>
+                                                                                                <li><a href="#">Gradient Colors</a></li>
+                                                                                                <li><a href="#">Beginner Friendly</a></li>
+                                                                                                <li><a href="#">Detailed Documentation</a></li>
+                                                                                                <li><a href="#">100% Bootstrap Base</a></li>
+                                                                                                <li><a href="#">HTML5 CSS3</a></li>
+                                                                                                <li><a href="#">And Much More...</a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <img src="images/darkmenubg.png" alt="" class="img-responsive">
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->                  
+                                                                            </div>
+                                                                            <div id="tabs7-pane2" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_01.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_02.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_03.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_04.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_05.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_06.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->      
+                                                                            </div>
+                                                                            <div id="tabs7-pane3" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <h4>ABOUT OUR COMPANY</h4>
+                                                                                            <p>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham de  Bonorum " are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <p>Finibus Bonorum et Malorum" are also form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <button class="btn btn-primary small" href="#">Read more</button>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                                                            <div class="carousel-inner">
+                                                                                                <div class="item active">
+                                                                                                    <a href="single-project.html"><img src="images/menu_01.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->     
+                                                                                                <div class="item">
+                                                                                                    <a href="single-project.html"><img src="images/menu_02.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->
+                                                                                            </div><!-- End Carousel Inner -->
+                                                                                        </div><!-- /.carousel -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                            <div id="tabs7-pane4" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" frameborder="0" allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe src="https://player.vimeo.com/video/48401493?color=90cc62&amp;title=0&amp;byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                        </div><!-- /.tab-content -->
+                                                                    </div><!-- end col -->
+                                                                </div><!-- /.tabbable -->
+                                                            </div><!-- end ttmenu-content -->
+                                                        </li>
+                                                    </ul>
+                                                </li><!-- end mega menu -->
+                                                <li class="dropdown ttmenu-full strap"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tabbed <b class="dropme"></b></a>
+                                                    <ul id="first-menu" class="dropdown-menu vertical-menu">
+                                                        <li>
+                                                            <div class="ttmenu-content">
+                                                                <div class="tabbable row">
+                                                                    <div class="col-md-3">
+                                                                        <ul class="nav nav-pills nav-stacked">
+                                                                            <li class="active"><a href="#tabs8-pane1" data-toggle="tab">Rich Features</a></li>
+                                                                            <li><a href="#tabs8-pane2" data-toggle="tab">Thumbnail</a></li>
+                                                                            <li><a href="#tabs8-pane3" data-toggle="tab">Carousel</a></li>
+                                                                            <li><a href="#tabs8-pane4" data-toggle="tab">Embed Video</a></li>
+                                                                        </ul>
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-9">
+                                                                        <div class="tab-content">
+                                                                            <div id="tabs8-pane1" class="tab-pane active">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>FONT ICON SUPPORT</h4></li>
+                                                                                                <li><a href="#">Web Design <span class="fa fa-laptop"></span></a></li>
+                                                                                                <li><a href="#">Web Development <span class="fa fa-gears"></span></a></li>
+                                                                                                <li><a href="#">Graphic Design <span class="fa fa-leaf"></span></a></li>
+                                                                                                <li><a href="#">IOS & ANDROID <span class="fa fa-android"></span></a></li>
+                                                                                                <li><a href="#">Logo Design <span class="fa fa-pencil"></span></a></li>
+                                                                                                <li><a href="#">Mockup Design <span class="fa fa-maxcdn"></span></a></li>
+                                                                                                <li><a href="#">e-Commerce <span class="fa fa-shopping-cart"></span></a></li>
+                                                                                                <li><a href="#">Digital Marketing <span class="fa fa-desktop"></span></a></li>
+                                                                                                <li><a href="#">SEO Services <span class="fa fa-area-chart"></span></a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>WHY CHOOSE TT MENU</h4></li>
+                                                                                                <li><a href="#">Responsive Layout</a></li>
+                                                                                                <li><a href="#">Retina Display Ready</a></li>
+                                                                                                <li><a href="#">Tons of Icons</a></li>
+                                                                                                <li><a href="#">Gradient Colors</a></li>
+                                                                                                <li><a href="#">Beginner Friendly</a></li>
+                                                                                                <li><a href="#">Detailed Documentation</a></li>
+                                                                                                <li><a href="#">100% Bootstrap Base</a></li>
+                                                                                                <li><a href="#">HTML5 CSS3</a></li>
+                                                                                                <li><a href="#">And Much More...</a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <img src="images/darkmenubg.png" alt="" class="img-responsive">
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->                  
+                                                                            </div>
+                                                                            <div id="tabs8-pane2" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_01.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_02.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_03.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_04.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_05.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_06.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->      
+                                                                            </div>
+                                                                            <div id="tabs8-pane3" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <h4>ABOUT OUR COMPANY</h4>
+                                                                                            <p>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham de  Bonorum " are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <p>Finibus Bonorum et Malorum" are also form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <button class="btn btn-primary small" href="#">Read more</button>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                                                            <div class="carousel-inner">
+                                                                                                <div class="item active">
+                                                                                                    <a href="single-project.html"><img src="images/menu_01.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->     
+                                                                                                <div class="item">
+                                                                                                    <a href="single-project.html"><img src="images/menu_02.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->
+                                                                                            </div><!-- End Carousel Inner -->
+                                                                                        </div><!-- /.carousel -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                            <div id="tabs8-pane4" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" frameborder="0" allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe src="https://player.vimeo.com/video/48401493?color=90cc62&amp;title=0&amp;byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                        </div><!-- /.tab-content -->
+                                                                    </div><!-- end col -->
+                                                                </div><!-- /.tabbable -->
+                                                            </div><!-- end ttmenu-content -->
+                                                        </li>
+                                                    </ul>
+                                                </li><!-- end mega menu -->
+                                                <li class="dropdown ttmenu-full"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tabbed <b class="dropme"></b></a>
+                                                    <ul id="first-menu" class="dropdown-menu vertical-menu">
+                                                        <li>
+                                                            <div class="ttmenu-content">
+                                                                <div class="tabbable row">
+                                                                    <div class="col-md-3">
+                                                                        <ul class="nav nav-pills nav-stacked">
+                                                                            <li class="active"><a href="#tabs9-pane1" data-toggle="tab">Rich Features</a></li>
+                                                                            <li><a href="#tabs9-pane2" data-toggle="tab">Thumbnail</a></li>
+                                                                            <li><a href="#tabs9-pane3" data-toggle="tab">Carousel</a></li>
+                                                                            <li><a href="#tabs9-pane4" data-toggle="tab">Embed Video</a></li>
+                                                                        </ul>
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-9">
+                                                                        <div class="tab-content">
+                                                                            <div id="tabs9-pane1" class="tab-pane active">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>FONT ICON SUPPORT</h4></li>
+                                                                                                <li><a href="#">Web Design <span class="fa fa-laptop"></span></a></li>
+                                                                                                <li><a href="#">Web Development <span class="fa fa-gears"></span></a></li>
+                                                                                                <li><a href="#">Graphic Design <span class="fa fa-leaf"></span></a></li>
+                                                                                                <li><a href="#">IOS & ANDROID <span class="fa fa-android"></span></a></li>
+                                                                                                <li><a href="#">Logo Design <span class="fa fa-pencil"></span></a></li>
+                                                                                                <li><a href="#">Mockup Design <span class="fa fa-maxcdn"></span></a></li>
+                                                                                                <li><a href="#">e-Commerce <span class="fa fa-shopping-cart"></span></a></li>
+                                                                                                <li><a href="#">Digital Marketing <span class="fa fa-desktop"></span></a></li>
+                                                                                                <li><a href="#">SEO Services <span class="fa fa-area-chart"></span></a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>WHY CHOOSE TT MENU</h4></li>
+                                                                                                <li><a href="#">Responsive Layout</a></li>
+                                                                                                <li><a href="#">Retina Display Ready</a></li>
+                                                                                                <li><a href="#">Tons of Icons</a></li>
+                                                                                                <li><a href="#">Gradient Colors</a></li>
+                                                                                                <li><a href="#">Beginner Friendly</a></li>
+                                                                                                <li><a href="#">Detailed Documentation</a></li>
+                                                                                                <li><a href="#">100% Bootstrap Base</a></li>
+                                                                                                <li><a href="#">HTML5 CSS3</a></li>
+                                                                                                <li><a href="#">And Much More...</a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <img src="images/darkmenubg.png" alt="" class="img-responsive">
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->                  
+                                                                            </div>
+                                                                            <div id="tabs9-pane2" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_01.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_02.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_03.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_04.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_05.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_06.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->      
+                                                                            </div>
+                                                                            <div id="tabs9-pane3" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <h4>ABOUT OUR COMPANY</h4>
+                                                                                            <p>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham de  Bonorum " are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <p>Finibus Bonorum et Malorum" are also form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <button class="btn btn-primary small" href="#">Read more</button>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                                                            <div class="carousel-inner">
+                                                                                                <div class="item active">
+                                                                                                    <a href="single-project.html"><img src="images/menu_01.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->     
+                                                                                                <div class="item">
+                                                                                                    <a href="single-project.html"><img src="images/menu_02.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->
+                                                                                            </div><!-- End Carousel Inner -->
+                                                                                        </div><!-- /.carousel -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                            <div id="tabs9-pane4" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" frameborder="0" allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe src="https://player.vimeo.com/video/48401493?color=90cc62&amp;title=0&amp;byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                        </div><!-- /.tab-content -->
+                                                                    </div><!-- end col -->
+                                                                </div><!-- /.tabbable -->
+                                                            </div><!-- end ttmenu-content -->
+                                                        </li>
+                                                    </ul>
+                                                </li><!-- end mega menu -->
+                                                <li class="dropdown ttmenu-full"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tabbed <b class="dropme"></b></a>
+                                                    <ul id="first-menu" class="dropdown-menu vertical-menu">
+                                                        <li>
+                                                            <div class="ttmenu-content">
+                                                                <div class="tabbable row">
+                                                                    <div class="col-md-3">
+                                                                        <ul class="nav nav-pills nav-stacked">
+                                                                            <li class="active"><a href="#tabs10-pane1" data-toggle="tab">Rich Features</a></li>
+                                                                            <li><a href="#tabs10-pane2" data-toggle="tab">Thumbnail</a></li>
+                                                                            <li><a href="#tabs10-pane3" data-toggle="tab">Carousel</a></li>
+                                                                            <li><a href="#tabs10-pane4" data-toggle="tab">Embed Video</a></li>
+                                                                        </ul>
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-9">
+                                                                        <div class="tab-content">
+                                                                            <div id="tabs10-pane1" class="tab-pane active">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>FONT ICON SUPPORT</h4></li>
+                                                                                                <li><a href="#">Web Design <span class="fa fa-laptop"></span></a></li>
+                                                                                                <li><a href="#">Web Development <span class="fa fa-gears"></span></a></li>
+                                                                                                <li><a href="#">Graphic Design <span class="fa fa-leaf"></span></a></li>
+                                                                                                <li><a href="#">IOS & ANDROID <span class="fa fa-android"></span></a></li>
+                                                                                                <li><a href="#">Logo Design <span class="fa fa-pencil"></span></a></li>
+                                                                                                <li><a href="#">Mockup Design <span class="fa fa-maxcdn"></span></a></li>
+                                                                                                <li><a href="#">e-Commerce <span class="fa fa-shopping-cart"></span></a></li>
+                                                                                                <li><a href="#">Digital Marketing <span class="fa fa-desktop"></span></a></li>
+                                                                                                <li><a href="#">SEO Services <span class="fa fa-area-chart"></span></a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>WHY CHOOSE TT MENU</h4></li>
+                                                                                                <li><a href="#">Responsive Layout</a></li>
+                                                                                                <li><a href="#">Retina Display Ready</a></li>
+                                                                                                <li><a href="#">Tons of Icons</a></li>
+                                                                                                <li><a href="#">Gradient Colors</a></li>
+                                                                                                <li><a href="#">Beginner Friendly</a></li>
+                                                                                                <li><a href="#">Detailed Documentation</a></li>
+                                                                                                <li><a href="#">100% Bootstrap Base</a></li>
+                                                                                                <li><a href="#">HTML5 CSS3</a></li>
+                                                                                                <li><a href="#">And Much More...</a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <img src="images/darkmenubg.png" alt="" class="img-responsive">
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->                  
+                                                                            </div>
+                                                                            <div id="tabs10-pane2" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_01.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_02.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_03.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_04.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_05.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_06.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->      
+                                                                            </div>
+                                                                            <div id="tabs10-pane3" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <h4>ABOUT OUR COMPANY</h4>
+                                                                                            <p>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham de  Bonorum " are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <p>Finibus Bonorum et Malorum" are also form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <button class="btn btn-primary small" href="#">Read more</button>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                                                            <div class="carousel-inner">
+                                                                                                <div class="item active">
+                                                                                                    <a href="single-project.html"><img src="images/menu_01.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->     
+                                                                                                <div class="item">
+                                                                                                    <a href="single-project.html"><img src="images/menu_02.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->
+                                                                                            </div><!-- End Carousel Inner -->
+                                                                                        </div><!-- /.carousel -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                            <div id="tabs10-pane4" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" frameborder="0" allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe src="https://player.vimeo.com/video/48401493?color=90cc62&amp;title=0&amp;byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                        </div><!-- /.tab-content -->
+                                                                    </div><!-- end col -->
+                                                                </div><!-- /.tabbable -->
+                                                            </div><!-- end ttmenu-content -->
+                                                        </li>
+                                                    </ul>
+                                                </li><!-- end mega menu -->
+                                                <li class="dropdown ttmenu-full strap"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tabbed <b class="dropme"></b></a>
+                                                    <ul id="first-menu" class="dropdown-menu vertical-menu">
+                                                        <li>
+                                                            <div class="ttmenu-content">
+                                                                <div class="tabbable row">
+                                                                    <div class="col-md-3">
+                                                                        <ul class="nav nav-pills nav-stacked">
+                                                                            <li class="active"><a href="#tabs11-pane1" data-toggle="tab">Rich Features</a></li>
+                                                                            <li><a href="#tabs11-pane2" data-toggle="tab">Thumbnail</a></li>
+                                                                            <li><a href="#tabs11-pane3" data-toggle="tab">Carousel</a></li>
+                                                                            <li><a href="#tabs11-pane4" data-toggle="tab">Embed Video</a></li>
+                                                                        </ul>
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-9">
+                                                                        <div class="tab-content">
+                                                                            <div id="tabs11-pane1" class="tab-pane active">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>FONT ICON SUPPORT</h4></li>
+                                                                                                <li><a href="#">Web Design <span class="fa fa-laptop"></span></a></li>
+                                                                                                <li><a href="#">Web Development <span class="fa fa-gears"></span></a></li>
+                                                                                                <li><a href="#">Graphic Design <span class="fa fa-leaf"></span></a></li>
+                                                                                                <li><a href="#">IOS & ANDROID <span class="fa fa-android"></span></a></li>
+                                                                                                <li><a href="#">Logo Design <span class="fa fa-pencil"></span></a></li>
+                                                                                                <li><a href="#">Mockup Design <span class="fa fa-maxcdn"></span></a></li>
+                                                                                                <li><a href="#">e-Commerce <span class="fa fa-shopping-cart"></span></a></li>
+                                                                                                <li><a href="#">Digital Marketing <span class="fa fa-desktop"></span></a></li>
+                                                                                                <li><a href="#">SEO Services <span class="fa fa-area-chart"></span></a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>WHY CHOOSE TT MENU</h4></li>
+                                                                                                <li><a href="#">Responsive Layout</a></li>
+                                                                                                <li><a href="#">Retina Display Ready</a></li>
+                                                                                                <li><a href="#">Tons of Icons</a></li>
+                                                                                                <li><a href="#">Gradient Colors</a></li>
+                                                                                                <li><a href="#">Beginner Friendly</a></li>
+                                                                                                <li><a href="#">Detailed Documentation</a></li>
+                                                                                                <li><a href="#">100% Bootstrap Base</a></li>
+                                                                                                <li><a href="#">HTML5 CSS3</a></li>
+                                                                                                <li><a href="#">And Much More...</a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <img src="images/darkmenubg.png" alt="" class="img-responsive">
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->                  
+                                                                            </div>
+                                                                            <div id="tabs11-pane2" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_01.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_02.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_03.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_04.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_05.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_06.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->      
+                                                                            </div>
+                                                                            <div id="tabs11-pane3" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <h4>ABOUT OUR COMPANY</h4>
+                                                                                            <p>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham de  Bonorum " are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <p>Finibus Bonorum et Malorum" are also form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <button class="btn btn-primary small" href="#">Read more</button>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                                                            <div class="carousel-inner">
+                                                                                                <div class="item active">
+                                                                                                    <a href="single-project.html"><img src="images/menu_01.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->     
+                                                                                                <div class="item">
+                                                                                                    <a href="single-project.html"><img src="images/menu_02.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->
+                                                                                            </div><!-- End Carousel Inner -->
+                                                                                        </div><!-- /.carousel -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                            <div id="tabs11-pane4" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" frameborder="0" allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe src="https://player.vimeo.com/video/48401493?color=90cc62&amp;title=0&amp;byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                        </div><!-- /.tab-content -->
+                                                                    </div><!-- end col -->
+                                                                </div><!-- /.tabbable -->
+                                                            </div><!-- end ttmenu-content -->
+                                                        </li>
+                                                    </ul>
+                                                </li><!-- end mega menu -->
+                                                <li class="dropdown ttmenu-full"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tabbed <b class="dropme"></b></a>
+                                                    <ul id="first-menu" class="dropdown-menu vertical-menu">
+                                                        <li>
+                                                            <div class="ttmenu-content">
+                                                                <div class="tabbable row">
+                                                                    <div class="col-md-3">
+                                                                        <ul class="nav nav-pills nav-stacked">
+                                                                            <li class="active"><a href="#tabs12-pane1" data-toggle="tab">Rich Features</a></li>
+                                                                            <li><a href="#tabs12-pane2" data-toggle="tab">Thumbnail</a></li>
+                                                                            <li><a href="#tabs12-pane3" data-toggle="tab">Carousel</a></li>
+                                                                            <li><a href="#tabs12-pane4" data-toggle="tab">Embed Video</a></li>
+                                                                        </ul>
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-9">
+                                                                        <div class="tab-content">
+                                                                            <div id="tabs12-pane1" class="tab-pane active">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>FONT ICON SUPPORT</h4></li>
+                                                                                                <li><a href="#">Web Design <span class="fa fa-laptop"></span></a></li>
+                                                                                                <li><a href="#">Web Development <span class="fa fa-gears"></span></a></li>
+                                                                                                <li><a href="#">Graphic Design <span class="fa fa-leaf"></span></a></li>
+                                                                                                <li><a href="#">IOS & ANDROID <span class="fa fa-android"></span></a></li>
+                                                                                                <li><a href="#">Logo Design <span class="fa fa-pencil"></span></a></li>
+                                                                                                <li><a href="#">Mockup Design <span class="fa fa-maxcdn"></span></a></li>
+                                                                                                <li><a href="#">e-Commerce <span class="fa fa-shopping-cart"></span></a></li>
+                                                                                                <li><a href="#">Digital Marketing <span class="fa fa-desktop"></span></a></li>
+                                                                                                <li><a href="#">SEO Services <span class="fa fa-area-chart"></span></a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <ul>
+                                                                                                <li><h4>WHY CHOOSE TT MENU</h4></li>
+                                                                                                <li><a href="#">Responsive Layout</a></li>
+                                                                                                <li><a href="#">Retina Display Ready</a></li>
+                                                                                                <li><a href="#">Tons of Icons</a></li>
+                                                                                                <li><a href="#">Gradient Colors</a></li>
+                                                                                                <li><a href="#">Beginner Friendly</a></li>
+                                                                                                <li><a href="#">Detailed Documentation</a></li>
+                                                                                                <li><a href="#">100% Bootstrap Base</a></li>
+                                                                                                <li><a href="#">HTML5 CSS3</a></li>
+                                                                                                <li><a href="#">And Much More...</a></li>
+                                                                                            </ul>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                                                        <img src="images/darkmenubg.png" alt="" class="img-responsive">
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->                  
+                                                                            </div>
+                                                                            <div id="tabs12-pane2" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_01.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_02.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4 menu-image">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_03.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_04.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_05.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="widget clearfix">
+                                                                                            <a href="#">
+                                                                                                <div class="entry">
+                                                                                                    <img src="images/menu_mini_06.png" alt="" class="img-responsive">
+                                                                                                    <span class="magnifier"></span>
+                                                                                                </div><!-- enntry --> 
+                                                                                            </a>
+                                                                                        </div><!-- end widget -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->      
+                                                                            </div>
+                                                                            <div id="tabs12-pane3" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <h4>ABOUT OUR COMPANY</h4>
+                                                                                            <p>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham de  Bonorum " are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <p>Finibus Bonorum et Malorum" are also form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                                                                            <button class="btn btn-primary small" href="#">Read more</button>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                                                            <div class="carousel-inner">
+                                                                                                <div class="item active">
+                                                                                                    <a href="single-project.html"><img src="images/menu_01.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->     
+                                                                                                <div class="item">
+                                                                                                    <a href="single-project.html"><img src="images/menu_02.png" class="img-responsive" alt=""></a>
+                                                                                                </div><!-- End Item -->
+                                                                                            </div><!-- End Carousel Inner -->
+                                                                                        </div><!-- /.carousel -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                            <div id="tabs12-pane4" class="tab-pane">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" frameborder="0" allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                                        <div class="box">
+                                                                                            <iframe src="https://player.vimeo.com/video/48401493?color=90cc62&amp;title=0&amp;byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                                                        </div><!-- end box -->
+                                                                                    </div><!-- end col -->
+                                                                                </div><!-- end row -->  
+                                                                            </div>
+                                                                        </div><!-- /.tab-content -->
+                                                                    </div><!-- end col -->
+                                                                </div><!-- /.tabbable -->
+                                                            </div><!-- end ttmenu-content -->
+                                                        </li>
+                                                    </ul>
+                                                </li><!-- end mega menu -->
+                                                <li class="dropdown ttmenu-full"><a href="#" data-toggle="dropdown" class="dropdown-toggle">List <b class="dropme"></b></a>
+                                                    <ul class="dropdown-menu vertical-menu">
+                                                        <li>
+                                                            <div class="ttmenu-content">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <div class="box">
+                                                                            <ul>
+                                                                                <li><a href="#">Icon Angellist <span class="fa fa-angellist"></span></a></li>
+                                                                                <li><a href="#">Icon Bus <span class="fa fa-bus"></span></a></li>
+                                                                                <li><a href="#">Icon PayPal <span class="fa fa-paypal"></span></a></li>
+                                                                                <li><a href="#">Icon Vısa Card <span class="fa fa-cc-visa"></span></a></li>
+                                                                                <li><a href="#">Icon Google Wallet <span class="fa fa-google-wallet"></span></a></li>
+                                                                            </ul>
+                                                                        </div><!-- end box -->
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-3">
+                                                                        <div class="box">
+                                                                            <ul>
+                                                                                <li><a href="#">Icon Wifi <span class="fa fa-wifi"></span></a></li>
+                                                                                <li><a href="#">Icon Ils <span class="fa fa-ils"></span></a></li>
+                                                                                <li><a href="#">Icon Pie Chart <span class="fa fa-pie-chart"></span></a></li>
+                                                                                <li><a href="#">Icon Stripe Card <span class="fa fa-cc-stripe"></span></a></li>
+                                                                                <li><a href="#">Icon TTY <span class="fa fa-tty"></span></a></li>
+                                                                            </ul>
+                                                                        </div><!-- end box -->
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-3">
+                                                                        <div class="box">
+                                                                            <ul>
+                                                                                <li><a href="#">Icon Line Chart <span class="fa fa-line-chart"></span></a></li>
+                                                                                <li><a href="#">Icon Calculator <span class="fa fa-calculator"></span></a></li>
+                                                                                <li><a href="#">Icon Yelp <span class="fa fa-yelp"></span></a></li>
+                                                                                <li><a href="#">Icon Soccer <span class="fa fa-soccer-ball-o"></span></a></li>
+                                                                                <li><a href="#">Icon Trash <span class="fa fa-trash"></span></a></li>
+                                                                            </ul>
+                                                                        </div><!-- end box -->
+                                                                    </div><!-- end col -->
+                                                                    <div class="col-md-3">
+                                                                        <div class="box">
+                                                                            <ul>
+                                                                                <li><a href="#">Icon Anchor <span class="fa fa-anchor"></span></a></li>
+                                                                                <li><a href="#">Icon Bpmb <span class="fa fa-bomb"></span></a></li>
+                                                                                <li><a href="#">Icon Cloud <span class="fa fa-cloud"></span></a></li>
+                                                                                <li><a href="#">Icon Crop <span class="fa fa-crop"></span></a></li>
+                                                                                <li><a href="#">Icon Fax <span class="fa fa-fax"></span></a></li>
+                                                                            </ul>
+                                                                        </div><!-- end box -->
+                                                                    </div><!-- end col -->
+                                                                </div><!-- end row -->
+                                                            </div><!-- end ttmenu-content -->
+                                                        </li>
+                                                    </ul>
+                                                </li><!-- end mega menu -->
+                                            </ul><!-- end nav navbar-nav -->
+                                        </div><!--/.nav-collapse -->
+                                    </div><!-- end navbar navbar-default clearfix -->
+                                </div><!-- end menu 1 -->  
+                            </div><!-- end hero -->  
+                        </div><!-- /container -->
+                    </div>
+                    <div class="col-sm-12 col-md-9" style="z-index: -900;">
+                        <div class="slider-wrapper theme-default">
+                            <div id="slider" class="nivoSlider">
+                                <a href="#"><img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt=""  /></a>
+                                <a href=""><img src="images/up.jpg" data-thumb="images/up.jpg" alt=""  /></a>
+                                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt=""  />
+                            </div>
+
+                        </div>
+                        <!-- small slider --->
+                        <section class="slider1">
+                            <div class="flexslider carousel">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_lemon.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_donut.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_caramel.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_lemon.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_donut.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_caramel.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_lemon.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_donut.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/kitchen_adventurer_caramel.jpg" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <!-- small slider end --->
+                    </div>
+                    <!-- add start--->
+
+                    <!-- add start--->
+                </div>
+            </div>
+        </div>
+        <!-----------------------------------------header End---------------------------------------------------------------->
+
+        <!---------------------------------------Rubel Mani Start---------------------------------------------------------------->
 
 
-<!-----------------------------------------header End---------------------------------------------------------------->
-
-<!---------------------------------------Rubel Mani Start---------------------------------------------------------------->
-
-
-<!-----------------------------------------Main End---------------------------------------------------------------->
-<!---------------------------------------Masud Footer---------------------------------------------------------------->
+        <!-----------------------------------------Main End---------------------------------------------------------------->
+        <!---------------------------------------Masud Footer---------------------------------------------------------------->
 
 
-<!-----------------------------------------Footer End---------------------------------------------------------------->
-<!-----------------------------------------Code End---------------------------------------------------------------->        
+        <!-----------------------------------------Footer End---------------------------------------------------------------->
+        <!-----------------------------------------Code End---------------------------------------------------------------->  
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script type="text/javascript" src="themes/jquery.nivo.slider.js"></script>
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
-        
-
+        <script src="js/ttmenu.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script defer src="jquery.flexslider.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
